@@ -6,6 +6,7 @@ import JobsPagination from "./JobsPagination";
 
 
 function App() {
+  // eslint-disable-next-line
   const [params, setParams] = useState({});
   const [page, setPage] = useState(1);
   const { jobs, loading, error, hasNextPage } = useFetchJob();
