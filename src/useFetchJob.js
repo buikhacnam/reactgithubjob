@@ -3,7 +3,7 @@ import axios from "axios";
 //define all actions by creating a constant variable:
 const ACTIONS = {
     MAKE_REQUEST: 'make-request',
-    GET_DATA: 'get-data',
+    GET_DATA: 'get-data1',
     ERROR: 'error',
     UPDATE_HAS_NEXT_PAGE: "update-has-next-page"
 };
@@ -70,7 +70,7 @@ export default function useFetchJob(params, page) {
         }
 
     }, [params, page]);
-
+    console.log(state);
     return state;
     //    return {
 //        jobs: ["job1", "job2", "job2"],

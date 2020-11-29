@@ -19,6 +19,8 @@ function App() {
     })
   }
 
+  console.log(params);
+
   return (
     <Container className="my-4">
       <h1 className="mb-4">GITHUB JOBS</h1>
