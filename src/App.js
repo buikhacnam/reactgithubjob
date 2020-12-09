@@ -19,7 +19,7 @@ function App() {
     })
   }
 
-  console.log(params);
+  //console.log(params);
 
   return (
     <Container className="my-4">
